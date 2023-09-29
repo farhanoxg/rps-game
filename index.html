@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Rock Paper scissor</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Sessior</h1>
+            <button id="restart" class="restart-btn" type="reset" style="color: white; display: none;">Restart Game</button>
+            <div id="score" class="score">
+                <p>player:0</p>
+                <p>computer:0</p>
+            </div>
+        </header>
+           <h2>make your selections</h2>
+           <div class="choices">
+            <i id="rock" class="fa-regular fa-hand-back-fist choice " ><p>rock</p></i>
+            <i id="paper" class="fa-regular fa-hand choice" ><p>paper</p></i>
+            <i  id="scissors" class="fa-regular fa-hand-scissors choice" ><p>scissors</p></i>
+           </div>
+    </div>
+    <div class="modal">
+        <div id="result" class="modal-content"></div>    
+     </div>
+</body>
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/2e91813719.js" crossorigin="anonymous"></script>
+</html>
